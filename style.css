@@ -1,0 +1,16 @@
+#image,#home {
+ 
+ display: flex;
+ flex-direction: row;
+ gap: 20px;
+}
+h1, h2{
+  font-size: 3rem;
+ text-align: center;
+}
+#video{
+  border-top: 2px solid black;
+  gap: 20px;
+}
+#home{
+}
