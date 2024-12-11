@@ -1,0 +1,51 @@
+form{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 500px;
+    padding: 20px;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+}
+body{
+    background-color: black;
+}
+label{
+    display: block;
+    font-size: 1.3rem;
+    padding: 2px;
+    margin: 2px;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+}
+input[ type='radio'] , input[ type='checkbox']{
+    width: auto;
+}
+button{
+   width: 100%;
+   border-radius: 20px;
+   color: rgb(255, 255, 255);
+   background-color: rgb(19, 179, 67);
+   border: none;
+   cursor: pointer;
+   padding: 10px;
+}
+button:hover{
+    color: black;
+    transition: color 3s;
+    background-color: rgb(69, 122, 85);
+    transition: background-color 3s;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+select{
+    width: 100%;
+}

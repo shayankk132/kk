@@ -1,0 +1,35 @@
+div{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: yellow;
+   }
+   table{
+    width: 50%;
+    border: none;
+   background-color: rgb(69, 122, 192);
+    border-collapse: collapse;
+    border-radius: 20px;
+    margin: 0 auto;
+   }
+  
+   th,td{
+    padding: 20px;
+   }
+  
+   body{
+    background-color:rgb(36, 185, 235);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+   }
+   caption{
+    margin: 0 auto;
+   }
+   
+ 
+  
