@@ -1,0 +1,122 @@
+header{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h2{
+    color: white;
+    font-size: 3rem;
+}
+header:hover{
+   background-color: rgb(68, 67, 67);
+    transition: background-color 2s;
+}
+
+header p{
+    color: white;
+    font-size: 1.3rem;
+}
+nav{
+    padding: 10px;
+    background-color: rgb(36, 35, 35);
+    cursor: pointer;
+    text-align: end;
+}
+nav a{
+    color: white;
+    padding: 20px;
+   /* text-align: center; */
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+nav a:hover{
+    color: blue;
+    transition: color 2s;
+}
+.company{
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.company h1{
+    font-size: 3rem;
+    cursor: pointer;
+}
+.company h2{
+    font-size: 1.8;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.home,.class,.school{
+    background-color: black;
+    border-radius: 20px;
+    color: red;
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+}
+.visit{
+    border-top: 2px solid black;
+    display: block;
+}
+.visit a{
+   text-decoration: overline;
+   font-size: 1.8rem;
+   color: white;
+}
+.visit p{
+    font-size: 1.3rem;
+}
+fieldset{
+    width: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: green;
+    text-decoration: none;
+}
+.visit a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+}
+.visit a:hover{
+    color: black;
+    transition: color 3s;
+    text-decoration: underline;
+}
+.visit h1,.contact h3{
+    font-size: 3rem;
+    cursor: pointer;
+}
+#contact{
+ 
+ width: 300px;
+ box-sizing: border-box;
+ height: 200px;
+padding: 10px;
+text-align: center;
+background-color: rgb(87, 85, 81);
+color: white;
+}
+.section{
+    border-top: 2px solid black;
+}
+.section h4{
+   text-align: end;
+   padding: 0;
+   margin: 0;
+   font-size: 0.7rem;
+}
+.section h5{
+    text-align: start;
+    padding: 0;
+    margin: 0;
+    font-size: 0.7rem;
+}
+
+
